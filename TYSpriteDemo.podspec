@@ -90,7 +90,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "TYSpriteDemo/**/*.{h,m,swift}"
+  # spec.source_files  = "TYSpriteDemo/**/*.{h,m,swift}"
   # spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
@@ -136,7 +136,7 @@ Pod::Spec.new do |spec|
 
   # 定义子模块（subspec）
   spec.subspec 'TYKit' do |ss|
-   ss.source_files = 'TYKit/**/*.{h,m,swift}'
+   ss.source_files = 'TYKit/**/*.swift'
   end
 
 end
